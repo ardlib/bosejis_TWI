@@ -1,0 +1,23 @@
+# Boseji's TWI Library
+
+# Primary Header and Classes (KEYWORD1)
+bosejis_TWI	KEYWORD1	bosejis_TWI
+Wire		KEYWORD1
+
+# Instances, Methods and Functions (KEYWORD2)
+begin				KEYWORD2
+setClock			KEYWORD2
+beginTransmission	KEYWORD2
+endTransmission		KEYWORD2
+requestFrom			KEYWORD2
+onReceive			KEYWORD2
+onRequest			KEYWORD2
+
+# Structures, Pre-Processor and Other Functions (KEYWORD3)
+
+# Constants (LITERAL1)
+TWI_BUFFER_LENGTH		LITERAL1
+
+# Other Parts (LITERAL2)
+WIRE_HAS_END	LITERAL2
+

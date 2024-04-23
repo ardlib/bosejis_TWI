@@ -1,0 +1,26 @@
+{
+  "name": "bosejis_TWI",
+  "version": "0.0.0",
+  "description": "TWI operations Library",
+  "keywords": "TWI, I2C, EEPROM, Sensor",
+  "authors": {
+    "name": "Abhijit Bose (aka. Boseji",
+    "url": "https://github.com/boseji",
+    "maintainer": true
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ardlib/bosejis_TWI.git"
+  },
+  "homepage": "https://boseji.com",
+  "export": {
+    "exclude": [
+      "extras",
+      "docs"
+    ]
+  },
+  "dependencies": {},
+  "frameworks": "*",
+  "platforms": "avr",
+  "examples": "examples/*/*/*.ino"
+}
