@@ -27,6 +27,7 @@
 #ifdef ARDUINO_ARCH_AVR
 
 #include <inttypes.h>
+#include <stdio.h>
 
 //#define ATMEGA8
 
@@ -51,7 +52,7 @@ void twi_setFrequency(uint32_t);
 uint8_t twi_readFrom(uint8_t, uint8_t *, size_t, uint8_t);
 uint8_t twi_writeTo(uint8_t, uint8_t *, size_t, uint8_t, uint8_t);
 uint8_t twi_transmit(const uint8_t *, size_t);
-void twi_attachSlaveRxEvent(void (*)(uint8_t *, int));
+void twi_attachSlaveRxEvent(void (*)(uint8_t *, size_t));
 void twi_attachSlaveTxEvent(void (*)(void));
 void twi_reply(uint8_t);
 void twi_stop(void);

@@ -26,7 +26,7 @@
 #define TwoWire_h
 
 #include "Stream.h"
-#include <inttypes.h>
+#include <Arduino.h>
 
 #ifndef TWI_BUFFER_LENGTH
 #define TWI_BUFFER_LENGTH 300

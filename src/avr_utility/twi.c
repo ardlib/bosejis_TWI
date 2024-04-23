@@ -372,7 +372,7 @@ uint8_t twi_transmit(const uint8_t *data, size_t length) {
  * Input    function: callback function to use
  * Output   none
  */
-void twi_attachSlaveRxEvent(void (*function)(uint8_t *, int)) {
+void twi_attachSlaveRxEvent(void (*function)(uint8_t *, size_t)) {
   twi_onSlaveReceive = function;
 }
 
