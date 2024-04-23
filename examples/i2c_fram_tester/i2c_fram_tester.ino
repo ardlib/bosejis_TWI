@@ -95,7 +95,7 @@ uint8_t WriteFRAM(uint16_t addr, uint8_t data) {
 }
 
 uint8_t ReadFRAM(uint16_t addr) {
-  uint8_t ret;
+  uint8_t ret = 0;
   Wire.beginTransmission(FRAM);
   Wire.write((byte)((addr >> 8) & 0xFF));
   Wire.write((byte)((addr >> 0) & 0xFF));

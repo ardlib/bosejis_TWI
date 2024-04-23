@@ -61,7 +61,7 @@ static volatile bool twi_do_reset_on_timeout =
     false; // reset the TWI registers on timeout
 
 static void (*twi_onSlaveTransmit)(void);
-static void (*twi_onSlaveReceive)(uint8_t *, int);
+static void (*twi_onSlaveReceive)(uint8_t *, size_t);
 
 static uint8_t twi_masterBuffer[TWI_BUFFER_LENGTH];
 static volatile size_t twi_masterBufferIndex;
