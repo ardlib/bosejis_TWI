@@ -4,7 +4,7 @@
   "description": "TWI operations Library",
   "keywords": "TWI, I2C, EEPROM, Sensor",
   "authors": {
-    "name": "Abhijit Bose (aka. Boseji",
+    "name": "Abhijit Bose (aka. Boseji)",
     "url": "https://github.com/boseji",
     "maintainer": true
   },
